@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local backup directories - do not publish
+/backups/
+/rimflex-backups/
+
+# Local backup file copies
+*.bak
